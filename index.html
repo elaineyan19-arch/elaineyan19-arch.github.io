@@ -1,552 +1,874 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D53X40TKJ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-D53X40TKJ9');
+  </script>
 
-<html class="dark" lang="en"><head>
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D53X40TKJ9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elaine (Chen) Yan | Portfolio</title>
+  <meta name="description" content="Elaine (Chen) Yan — Senior Product Manager, Platform Strategy & Commerce Growth. 8 years at Apple and TikTok. Building with AI in production."/>
+  <meta name="author" content="Elaine (Chen) Yan"/>
+  <link rel="canonical" href="https://elaineyan19-arch.github.io/"/>
+  <meta property="og:title" content="Elaine (Chen) Yan | Product Manager"/>
+  <meta property="og:url" content="https://elaineyan19-arch.github.io/"/>
+  <meta property="og:description" content="Platform Strategy · Commerce Growth · AI in Production"/>
 
-  gtag('config', 'G-D53X40TKJ9');
-</script>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Elaine (Chen) Yan | Portfolio</title>
-<meta name="description" content="Elaine (Chen) Yan — Senior Product Manager, Platform Strategy &amp; Commerce Growth. 8 years at Apple and TikTok. Building with AI in production."/>
-<meta name="author" content="Elaine (Chen) Yan"/>
-<link rel="canonical" href="https://elaineyan19-arch.github.io/"/>
-<meta property="og:title" content="Elaine (Chen) Yan | Product Manager"/>
-<meta property="og:url" content="https://elaineyan19-arch.github.io/"/>
-<meta property="og:description" content="Platform Strategy · Commerce Growth · AI in Production"/>
-<!-- Tailwind Play CDN — correct for static sites, no build step required -->
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://lh3.googleusercontent.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&amp;family=DM+Sans:wght@400;500;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    colors: {
-                        "secondary-fixed": "#e3dfff",
-                        "outline": "#85948b",
-                        "on-tertiary": "#482900",
-                        "on-tertiary-fixed-variant": "#673d00",
-                        "secondary-fixed-dim": "#c5c0ff",
-                        "tertiary": "#ffba6d",
-                        "surface-container-lowest": "#0c0e14",
-                        "on-primary": "#003825",
-                        "secondary-container": "#3f35a3",
-                        "on-error-container": "#ffdad6",
-                        "primary-fixed-dim": "#3fdfa5",
-                        "background": "#0F1117",
-                        "surface-container-high": "#282a30",
-                        "on-primary-fixed": "#002114",
-                        "surface-dim": "#111319",
-                        "on-secondary-fixed-variant": "#3f35a3",
-                        "on-error": "#690005",
-                        "primary": "#41e0a6",
-                        "on-secondary-container": "#b2acff",
-                        "surface-variant": "#33343b",
-                        "on-tertiary-container": "#5f3700",
-                        "on-primary-container": "#004a33",
-                        "on-surface": "#e2e2eb",
-                        "surface-bright": "#373940",
-                        "inverse-surface": "#e2e2eb",
-                        "outline-variant": "#3c4a42",
-                        "surface": "#111319",
-                        "on-tertiary-fixed": "#2b1700",
-                        "on-surface-variant": "#bbcac0",
-                        "on-secondary-fixed": "#140067",
-                        "on-secondary": "#28188c",
-                        "primary-fixed": "#63fcc0",
-                        "surface-tint": "#3fdfa5",
-                        "tertiary-fixed-dim": "#ffb869",
-                        "inverse-on-surface": "#2e3037",
-                        "surface-container-low": "#191b22",
-                        "tertiary-container": "#e99c3e",
-                        "on-primary-fixed-variant": "#005138",
-                        "surface-container-highest": "#33343b",
-                        "on-background": "#e2e2eb",
-                        "error": "#ffb4ab",
-                        "error-container": "#93000a",
-                        "tertiary-fixed": "#ffdcbb",
-                        "inverse-primary": "#006c4b",
-                        "surface-container": "#1e1f26",
-                        "secondary": "#c5c0ff",
-                        "primary-container": "#00c48c"
-                    },
-                    fontFamily: {
-                        "headline": ["Cormorant Garamond", "serif"],
-                        "body": ["DM Sans", "sans-serif"],
-                        "label": ["DM Sans", "sans-serif"]
-                    },
-                    borderRadius: {
-                        "DEFAULT": "0.125rem",
-                        "lg": "0.25rem",
-                        "xl": "0.5rem",
-                        "full": "0.75rem"
-                    },
-                },
-            },
-        }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            display: inline-block;
-            vertical-align: middle;
-        }
-        body {
-            background-color: #0F1117;
-            color: #F0EEE8;
-            scroll-behavior: smooth;
-        }
-        .career-summary-border {
-            border-left: 2px solid #00C48C;
-        }
-        .bullet-dash::before {
-            content: "—";
-            color: #00C48C;
-            position: absolute;
-            left: -20px;
-        }
-        .glow-dot {
-            box-shadow: 0 0 12px rgba(0, 196, 140, 0.6);
-        }
-    </style>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <style>
+    /* ─── Reset & Base ────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0F1117;
+      --bg-card:   #1A1D26;
+      --bg-hover:  #21253A;
+      --border:    #2E3244;
+      --green:     #00C48C;
+      --green-dim: #0D3D2E;
+      --text:      #F0EEE8;
+      --muted:     #9B99A1;
+      --dim:       #6B6975;
+      --purple:    #534AB7;
+      --purple-lt: #8B8AE0;
+      --purple-bg: #1A1D35;
+      --amber:     #BA7517;
+      --amber-lt:  #E09500;
+      --amber-bg:  #2D1F00;
+      --font-head: 'Cormorant Garamond', serif;
+      --font-body: 'DM Sans', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    ::selection { background: var(--green); color: #003825; }
+
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ─── Typography helpers ──────────────────────────────────────── */
+    .font-head { font-family: var(--font-head); }
+    .label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    /* ─── Layout ──────────────────────────────────────────────────── */
+    .container    { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+    .container-sm { max-width: 900px;  margin: 0 auto; padding: 0 32px; }
+
+    /* ─── Navigation ──────────────────────────────────────────────── */
+    .nav {
+      height: 56px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: var(--bg);
+      border-bottom: 0.5px solid var(--border);
+      display: flex;
+      align-items: center;
+    }
+    .nav__inner {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav__logo {
+      font-family: var(--font-head);
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .nav__links {
+      display: flex;
+      gap: 32px;
+      list-style: none;
+    }
+    .nav__links a {
+      font-size: 14px;
+      color: rgba(240,238,232,0.4);
+      transition: color 0.2s;
+    }
+    .nav__links a:hover { color: var(--green); }
+
+    /* ─── Hero ────────────────────────────────────────────────────── */
+    .hero {
+      display: flex;
+      min-height: calc(100vh - 56px);
+    }
+    .hero__photo {
+      width: 35%;
+      max-width: 360px;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+    .hero__photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+    }
+    .hero__content {
+      flex: 1;
+      padding: 64px;
+      display: flex;
+      align-items: center;
+    }
+    .hero__inner { max-width: 640px; }
+    .hero__eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(240,238,232,0.5);
+      display: block;
+      margin-bottom: 16px;
+      white-space: nowrap;
+    }
+    .hero__name {
+      font-family: var(--font-head);
+      font-size: clamp(48px, 7vw, 80px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+    .hero__title {
+      font-size: 20px;
+      font-weight: 500;
+      color: var(--green);
+      margin-bottom: 6px;
+    }
+    .hero__target {
+      font-size: 13px;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+    .hero__bio {
+      font-size: 17px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+    }
+    .hero__callout {
+      border-left: 3px solid var(--green);
+      padding: 8px 24px;
+      margin-bottom: 40px;
+      font-size: 17px;
+      font-weight: 700;
+    }
+    .btn-download {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border: 1px solid var(--border);
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      transition: background 0.2s;
+      margin-bottom: 64px;
+      cursor: pointer;
+    }
+    .btn-download:hover { background: rgba(240,238,232,0.05); }
+
+    /* Material icon */
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 16px;
+    }
+
+    /* ─── Focus card ──────────────────────────────────────────────── */
+    .focus-card {
+      background: var(--bg-card);
+      border: 0.5px solid var(--border);
+      border-left: 4px solid var(--green);
+      padding: 24px;
+    }
+    .focus-card__title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
+    .focus-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      list-style: none;
+    }
+    .focus-item__label {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      flex-shrink: 0;
+    }
+    .dot--sm {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--green);
+      flex-shrink: 0;
+    }
+    .focus-item__desc {
+      font-size: 13px;
+      color: var(--muted);
+      padding-left: 16px;
+    }
+
+    /* ─── Traits strip ────────────────────────────────────────────── */
+    .traits {
+      padding: 48px 0;
+      border-top: 0.5px solid var(--border);
+    }
+    .traits__grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .trait-card {
+      background: var(--bg-card);
+      padding: 24px;
+      border-radius: 0 8px 8px 0;
+      transition: background 0.3s;
+    }
+    .trait-card:hover { background: var(--bg-hover); }
+    .trait-card--purple { border-left: 3px solid var(--purple); }
+    .trait-card--green  { border-left: 3px solid var(--green); }
+    .trait-card--amber  { border-left: 3px solid var(--amber); }
+    .trait-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .trait-badge--purple { background: var(--purple-bg); color: var(--purple-lt); }
+    .trait-badge--green  { background: var(--green-dim); color: var(--green); }
+    .trait-badge--amber  { background: var(--amber-bg);  color: var(--amber-lt); }
+    .trait-card__title { font-size: 18px; font-weight: 500; margin-bottom: 8px; }
+    .trait-card__body  { font-size: 14px; color: var(--muted); line-height: 1.6; }
+
+    /* ─── Section wrapper ─────────────────────────────────────────── */
+    .section { padding: 96px 80px; }
+    .section__eyebrow { display: block; margin-bottom: 16px; }
+    .section__heading {
+      font-family: var(--font-head);
+      font-size: clamp(28px, 3vw, 36px);
+      line-height: 1.3;
+      max-width: 640px;
+    }
+
+    /* ─── Timeline ────────────────────────────────────────────────── */
+    .timeline {
+      position: relative;
+      max-width: 900px;
+      margin: 64px auto 0;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 5.5px;
+      top: 0; bottom: 0;
+      width: 1px;
+      background: var(--border);
+    }
+    .timeline__role {
+      position: relative;
+      padding-left: 40px;
+      margin-bottom: 56px;
+    }
+    .timeline__dot {
+      position: absolute;
+      left: 0; top: 6px;
+      width: 12px; height: 12px;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    .timeline__dot--active {
+      background: var(--green);
+      box-shadow: 0 0 12px rgba(0,196,140,0.6);
+    }
+    .timeline__dot--past {
+      background: #2E3244;
+      border: 1px solid var(--green);
+    }
+    .timeline__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      gap: 16px;
+    }
+    .timeline__company { font-size: 17px; font-weight: 500; }
+    .timeline__role-title { font-size: 13px; color: var(--muted); }
+    .timeline__location { font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.1em; }
+    .timeline__date { font-size: 11px; color: var(--green); font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; white-space: nowrap; }
+    .timeline__summary {
+      border-left: 2px solid var(--green);
+      padding: 4px 24px;
+      margin-bottom: 16px;
+      font-size: 15px;
+      line-height: 1.7;
+    }
+    .timeline__bullets { list-style: none; margin-left: 20px; }
+    .timeline__bullets li {
+      position: relative;
+      font-size: 15px;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 12px;
+      padding-left: 4px;
+    }
+    .timeline__bullets li::before {
+      content: "—";
+      color: var(--green);
+      position: absolute;
+      left: -20px;
+    }
+
+    /* ─── Showcase pills ──────────────────────────────────────────── */
+    .pills { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 32px; }
+    .pill {
+      padding: 4px 8px;
+      border: 1px solid var(--border);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* ─── Showcase cards ──────────────────────────────────────────── */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 24px;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 0.5px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      transition: border-color 0.2s;
+    }
+    .card:hover { border-color: rgba(0,196,140,0.5); }
+    .card--span2 { grid-column: span 2; }
+    .card__title {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 4px;
+      transition: color 0.2s;
+    }
+    a.card:hover .card__title { color: var(--green); }
+    .card__desc   { font-size: 11px; color: var(--muted); margin-bottom: 12px; }
+    .card__link   { font-size: 10px; color: var(--green); letter-spacing: 0.1em; text-transform: uppercase; font-weight: 500; }
+    .card__thumb  {
+      aspect-ratio: 16/9;
+      width: 100%;
+      background: var(--bg);
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 12px;
+    }
+    .card__thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .card__duo { display: flex; gap: 16px; margin-bottom: 16px; }
+    .card__duo-item {
+      flex: 1;
+      aspect-ratio: 9/16;
+      background: var(--bg);
+      overflow: hidden;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+    }
+    .card__duo-item img { width: 100%; height: 100%; object-fit: cover; }
+    .card__caption { font-size: 11px; font-style: italic; color: var(--dim); }
+
+    /* ─── AI in Practice ──────────────────────────────────────────── */
+    .ai-section { background: var(--bg); }
+    .ai-section__heading { font-family: var(--font-head); font-size: 32px; margin-bottom: 4px; }
+    .ai-section__sub { font-size: 18px; font-style: italic; color: var(--muted); }
+
+    .philosophy-callout {
+      background: var(--bg-card);
+      border: 0.5px solid var(--border);
+      border-left: 4px solid var(--green);
+      border-radius: 0 12px 12px 0;
+      padding: 36px;
+      margin-bottom: 40px;
+    }
+    .philosophy-callout__title { font-size: 16px; font-weight: 500; margin-bottom: 14px; }
+    .philosophy-callout__quote { font-size: 16px; font-style: italic; line-height: 1.7; }
+
+    .story { font-size: 15px; color: var(--muted); line-height: 1.8; max-width: 800px; margin-bottom: 40px; }
+    .story p + p { margin-top: 16px; }
+
+    .ai-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .ai-card {
+      background: var(--bg-card);
+      border-radius: 8px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      transition: background 0.2s;
+    }
+    .ai-card:hover { background: var(--bg-hover); }
+    .ai-card--span2 { grid-column: span 2; }
+    .ai-card--featured { border: 1px solid rgba(0,196,140,0.3); }
+    .ai-card--default  { border: 0.5px solid var(--border); }
+    .ai-card--learning { border: 0.5px solid var(--border); }
+
+    .ai-badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+      align-self: flex-start;
+    }
+    .ai-badge--green  { background: var(--green-dim); color: var(--green); }
+    .ai-badge--purple { background: var(--purple-bg); color: var(--purple-lt); }
+
+    .ai-card__title { font-size: 18px; font-weight: 500; margin-bottom: 8px; }
+    .ai-card__mono  { font-family: monospace; font-size: 12px; color: var(--dim); margin-bottom: 16px; }
+    .ai-card__body  { font-size: 14px; color: var(--muted); line-height: 1.7; margin-bottom: 12px; }
+    .ai-card__note  { font-size: 13px; font-style: italic; color: var(--dim); margin-top: auto; }
+
+    .ai-card__img-wrap {
+      margin-top: 8px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .ai-card__img-wrap img { width: 100%; height: auto; display: block; }
+
+    .learning-body { font-size: 14px; color: var(--muted); line-height: 1.8; }
+    .learning-body p + p { margin-top: 12px; }
+
+    /* ─── Education ───────────────────────────────────────────────── */
+    .edu-row { display: flex; justify-content: space-between; align-items: flex-start; }
+    .edu-school { font-size: 18px; font-weight: 500; }
+    .edu-degree { font-size: 15px; color: var(--muted); margin-top: 4px; }
+    .edu-award  { display: flex; align-items: center; gap: 8px; margin-top: 16px; }
+    .edu-award__label { font-size: 14px; font-weight: 500; }
+    .edu-award__sub   { font-size: 12px; color: var(--muted); margin-left: 14px; }
+    .edu-date { font-size: 14px; color: var(--dim); }
+
+    /* ─── Footer ──────────────────────────────────────────────────── */
+    .footer {
+      background: var(--bg-card);
+      border-top: 0.5px solid var(--border);
+      padding: 80px 0;
+    }
+    .footer__heading { font-family: var(--font-head); font-size: 40px; margin-bottom: 32px; }
+    .footer__name    { font-size: 16px; font-weight: 500; margin-bottom: 20px; }
+    .footer__links   { display: flex; flex-direction: column; gap: 12px; list-style: none; }
+    .footer__links a, .footer__links span {
+      font-size: 14px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: color 0.2s;
+    }
+    .footer__links a:hover { color: var(--green); }
+    .footer__bottom {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .footer__copy   { font-size: 12px; color: var(--dim); }
+    .footer__built  { font-size: 12px; color: var(--green); font-weight: 500; }
+
+    /* ─── Responsive ──────────────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .nav__links { display: none; }
+      .hero { flex-direction: column; min-height: auto; }
+      .hero__photo { width: 100%; max-width: 100%; height: 320px; }
+      .hero__content { padding: 40px 24px; }
+      .focus-list { grid-template-columns: 1fr; }
+      .traits__grid { grid-template-columns: 1fr; }
+      .section { padding: 64px 24px; }
+      .timeline__header { flex-direction: column; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .card--span2 { grid-column: span 1; }
+      .ai-grid { grid-template-columns: 1fr; }
+      .ai-card--span2 { grid-column: span 1; }
+      .edu-row { flex-direction: column; gap: 8px; }
+      .footer { padding: 64px 0; }
+    }
+  </style>
 </head>
-<body class="font-body selection:bg-primary-container selection:text-on-primary-container">
-<!-- Top Navigation Bar -->
-<nav class="h-[56px] sticky top-0 w-full z-50 bg-[#0F1117] border-b-[0.5px] border-[#2E3244] flex items-center">
-<div class="flex justify-between items-center px-8 max-w-7xl mx-auto w-full">
-<div class="font-['Cormorant_Garamond'] text-xl font-bold text-[#F0EEE8]">
-                Elaine (Chen) Yan
-            </div>
-<div class="hidden md:flex gap-8 items-center font-['DM_Sans'] text-sm tracking-wide text-[15px]">
-<a class="text-[#F0EEE8]/40 hover:text-[#00C48C] transition-colors duration-200" href="#career" style="font-size: 14px;">Career Journey</a>
-<a class="text-[#F0EEE8]/40 hover:text-[#00C48C] transition-colors duration-200" href="#ai-workflow" style="font-size: 14px;">AI in Practice</a>
-<a class="text-[#F0EEE8]/40 hover:text-[#00C48C] transition-colors duration-200" href="#education" style="font-size: 14px;">Education</a>
-<a class="text-[#F0EEE8]/40 hover:text-[#00C48C] transition-colors duration-200" href="#contact" style="font-size: 14px;">Contact</a>
-</div>
-</div>
-</nav>
-<main>
-<!-- Hero Section -->
-<section class="flex flex-col md:flex-row min-h-[calc(100vh-56px)] bg-[#0F1117] items-stretch">
-<!-- Left Column: Image -->
-<div class="md:w-[35%] max-w-[360px] relative overflow-hidden h-[400px] md:h-auto self-stretch flex">
-<img alt="Professional portrait of Elaine Chen Yan" class="w-full h-full object-cover object-top block flex-1" loading="eager" src="photo.jpg" style="width: 100%; height: 100%; object-fit: cover; object-position: top center;"/>
-</div>
-<!-- Right Column: Content -->
-<div class="md:w-[65%] p-12 md:p-16 flex flex-col justify-center">
-<div class="max-w-2xl">
-<span class="font-label uppercase tracking-[0.2em] text-[#F0EEE8]/50 mb-4 block" style="font-size: 11px; white-space: nowrap; letter-spacing: 0.12em;">
-                        Platform Strategy · Commerce Growth · AI in Production
-                    </span>
-<h1 class="font-headline text-5xl md:text-7xl font-bold text-[#F0EEE8] leading-tight mb-2">
-                        Elaine (Chen) Yan
-                    </h1>
-<p class="font-body font-medium text-[#00C48C] mb-8" style="font-size: 20px;">
-                        Senior Product Manager — Growth &amp; Platform Partnerships
-                    </p>
-<p class="font-body text-[#F0EEE8] leading-relaxed mb-8" style="font-size: 17px;">
-                        The through-line of my career is simple: find the untapped intersection between platforms, then make something real there. At Apple and TikTok, I built the products and partnerships that no other social app had thought to build — including TikTok's deepest iOS integration and social commerce's first payment-led promotion program. Moving into e-commerce, I turned payment friction into a growth engine — a 0→1 product and GTM that no platform had done before. Today, I'm doing the same thing with AI: scoping LLM agent deployment in production, building with the Claude API, and finding the gaps that matter before anyone else looks.
-                    </p>
-<div class="border-l-[3px] border-[#00C48C] pl-6 py-1 mb-10">
-<p class="font-body text-[#F0EEE8]" style="font-size: 17px; font-weight: 700;">
-                            This website was designed and built with AI — a practice, not just a talking point.
-                        </p>
-</div>
-<div class="flex flex-wrap gap-4 mb-16">
-<a class="px-6 py-3 border border-[#2E3244] font-label text-sm font-medium tracking-wide hover:bg-[#F0EEE8]/5 transition-all flex items-center gap-2" download="Elaine_Chen_Yan_Resume.pdf" href="https://elaineyan19-arch.github.io/resume.pdf">
-<span class="material-symbols-outlined text-sm text-[15px]">download</span>
-                            Download Resume (PDF)
-                        </a>
-</div>
-<!-- 2026 Focus Card -->
-<div class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] border-l-4 border-l-[#00C48C] p-6">
-<h3 class="font-label font-medium text-[#F0EEE8] mb-4" style="font-size: 14px;">What I'm focused on in 2026</h3>
-<ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<li class="flex flex-col gap-1 text-[#F0EEE8]/90">
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 bg-[#00C48C] shrink-0"></span>
-<span style="font-size: 15px; font-weight: 500;">Responsible AI in ops</span>
-</div>
-<p class="pl-4.5 text-[#9B99A1]" style="font-size: 13px;">Mapping which customer service workflows can safely use LLM agents, and where human-in-the-loop is non-negotiable.</p>
-</li>
-<li class="flex flex-col gap-1 text-[#F0EEE8]/90">
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 bg-[#00C48C] shrink-0"></span>
-<span style="font-size: 15px; font-weight: 500;">Building the mental models</span>
-</div>
-<p class="pl-4.5 text-[#9B99A1]" style="font-size: 13px;">Andrew Ng and Andrej Karpathy. Developing builder judgment, not just user habits.</p>
-</li>
-<li class="flex flex-col gap-1 text-[#F0EEE8]/90">
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 bg-[#00C48C] shrink-0"></span>
-<span style="font-size: 15px; font-weight: 500;">Building production AI systems</span>
-</div>
-<p class="pl-4.5 text-[#9B99A1]" style="font-size: 13px;">Not just using AI tools — shipping them. Built a fully automated daily job agent from scratch: Claude API, GitHub Actions, Gmail SMTP. Runs in production every weekday.</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<!-- Three-Trait Strip -->
-<section class="bg-[#0F1117] py-12 border-t-[0.5px] border-[#2E3244] px-8">
-<div class="max-w-7xl mx-auto">
-<span class="font-label text-[11px] uppercase tracking-[0.12em] text-[#9B99A1] block mb-5">
-                    Three ways I've worked — across every role
-                </span>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-<!-- Trait 1: Purple -->
-<div class="bg-[#1A1D26] p-6 border-l-[3px] border-[#534AB7] rounded-r-lg hover:bg-[#21253A] transition-all duration-300">
-<div class="mb-3">
-<span class="px-2 py-0.5 bg-[#1A1D35] text-[#8B8AE0] text-[10px] font-bold rounded-full uppercase tracking-widest">White Space Eye</span>
-</div>
-<h4 class="font-body font-medium text-[#F0EEE8] mb-2" style="font-size: 18px;">I see what's not there yet</h4>
-<p class="text-[#9B99A1] leading-relaxed" style="font-size: 14px;">
-                            I find the gap between what a platform can do and what anyone's using it for — then I build there before anyone else looks.
-                        </p>
-</div>
-<!-- Trait 2: Green -->
-<div class="bg-[#1A1D26] p-6 border-l-[3px] border-[#00C48C] rounded-r-lg hover:bg-[#21253A] transition-all duration-300">
-<div class="mb-3">
-<span class="px-2 py-0.5 bg-[#0D3D2E] text-[#00C48C] text-[10px] font-bold rounded-full uppercase tracking-widest">0 → 1 Pioneer</span>
-</div>
-<h4 class="font-body font-medium text-[#F0EEE8] mb-2" style="font-size: 18px;">I build the first version</h4>
-<p class="text-[#9B99A1] leading-relaxed" style="font-size: 14px;">
-                            SharePlay. Social commerce's first payment promotion program. E-commerce insurance on TikTok Shop. I'm drawn to the blank page — and I know how to fill it.
-                        </p>
-</div>
-<!-- Trait 3: Amber -->
-<div class="bg-[#1A1D26] p-6 border-l-[3px] border-[#BA7517] rounded-r-lg hover:bg-[#21253A] transition-all duration-300">
-<div class="mb-3">
-<span class="px-2 py-0.5 bg-[#2D1F00] text-[#E09500] text-[10px] font-bold rounded-full uppercase tracking-widest">1 → 100 Scaler</span>
-</div>
-<h4 class="font-body font-medium text-[#F0EEE8] mb-2" style="font-size: 18px;">I don't stop at launch</h4>
-<p class="text-[#9B99A1] leading-relaxed" style="font-size: 14px;">
-                            4% GMV uplift. 59M+ impressions. Tripled Live Room AOV. I iterate until the numbers move.
-                        </p>
-</div>
-</div>
-</div>
-</section>
-<!-- Career Journey Section -->
-<section class="bg-[#0F1117] py-[96px] px-4 md:px-[80px]" id="career">
-<div class="max-w-7xl mx-auto">
-<div class="mb-[64px]">
-<span class="font-label text-[11px] uppercase tracking-[0.12em] text-[#9B99A1] block mb-4">Career Journey</span>
-<h2 class="font-headline text-[36px] text-[#F0EEE8] leading-[1.3] max-w-[640px]">
-                        Eight years at the intersection of platform strategy and product growth. One consistent instinct: find the gap, then build there.
-                    </h2>
-</div>
-<!-- Timeline -->
-<div class="relative max-w-[900px] mx-auto">
-<!-- Vertical Line -->
-<div class="absolute left-[5.5px] top-0 bottom-0 w-[1px] bg-[#2E3244]"></div>
-<!-- Role 1 -->
-<div class="relative pl-[40px] mb-[56px]">
-<!-- Dot -->
-<div class="absolute left-0 top-[6px] w-[12px] h-[12px] rounded-full bg-[#00C48C] glow-dot z-10"></div>
-<div class="flex flex-col md:flex-row justify-between items-start mb-2">
-<div>
-<h3 class="text-[17px] font-medium text-[#F0EEE8]">TikTok USDS Joint Venture LLC</h3>
-<p class="text-[13px] text-[#9B99A1]">Senior Product Manager, AI-Augmented Growth &amp; Operations</p>
-<p class="text-[11px] text-[#6B6975] uppercase tracking-wider">Bellevue, WA</p>
-</div>
-<span class="text-[11px] text-[#00C48C] font-medium tracking-widest md:text-right mt-1 md:mt-0 uppercase">JAN 2026 – PRESENT</span>
-</div>
-<div class="career-summary-border pl-6 py-1 mb-4">
-<p class="text-[14px] md:text-[15px] text-[#F0EEE8] leading-relaxed">
-                                Identified that the coin recharge business needed a completely different playbook from Shop — different user psychology, different incentive structure, different approach. Rebuilt the promotion strategy from the ground up.
-                            </p>
-</div>
-<ul class="space-y-3 ml-5">
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Identified that coin recharge users respond to reward psychology, not discount mechanics — a fundamental difference from Shop. Redesigned the promotion strategy from the ground up around behavioral triggers and bonus incentives.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Built predictive segmentation to separate users who recharge organically from those who need a promotion — focused co-marketing spend where it changes behaviour.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Scoping LLM agent deployment across customer ops — mapping automatable workflows vs those requiring human oversight. Established escalation criteria for financial transactions to protect user trust.
-                            </li>
-</ul>
-</div>
-<!-- Role 2 -->
-<div class="relative pl-[40px] mb-[56px]">
-<!-- Dot -->
-<div class="absolute left-0 top-[6px] w-[12px] h-[12px] rounded-full border border-[#00C48C] bg-[#2E3244] z-10"></div>
-<div class="flex flex-col md:flex-row justify-between items-start mb-2">
-<div>
-<h3 class="text-[17px] font-medium text-[#F0EEE8]">TikTok Shop</h3>
-<p class="text-[13px] text-[#9B99A1]">Product Lead, Commerce Growth &amp; Fintech Innovation</p>
-<p class="text-[11px] text-[#6B6975] uppercase tracking-wider">Bellevue, WA</p>
-</div>
-<span class="text-[11px] text-[#00C48C] font-medium tracking-widest md:text-right mt-1 md:mt-0 uppercase">FEB 2023 – DEC 2025</span>
-</div>
-<div class="career-summary-border pl-6 py-1 mb-4">
-<p class="text-[14px] md:text-[15px] text-[#F0EEE8] leading-relaxed">
-                                Identified payment friction as TikTok Shop's real growth ceiling — not a tech problem, a strategy gap. Built a new creator monetization model around payment partners, built the first payment-led promotion program in social commerce, and validated an entirely new product category from zero.
-                            </p>
-</div>
-<ul class="space-y-3 ml-5">
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Built the first payment-led promotion program in social commerce — secured multi-million dollar co-marketing with Apple Pay, Venmo, and PayPal. Drove 4% GMV uplift and tripled Live Room AOV across high-traffic mega-sale events.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Pioneered the first payment-brand native ad format in live social commerce — financial partners compensating creators directly for promoting payment offers on-stream. New revenue stream for Gen Z creators. New performance channel for financial brands.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Validated e-commerce insurance as a net-new product category — led business model analysis, regulatory review, partner negotiations, and MVP build with Cover Genius end-to-end. Generated millions in Gross Written Premium within months of launch.
-                            </li>
-</ul>
-<!-- Showcase Pills -->
-<div class="mt-8 flex flex-wrap gap-2">
-<span class="px-2 py-1 border border-[#2E3244] text-[11px] tracking-widest text-[#9B99A1] rounded-[4px] uppercase">Venmo Partnership</span>
-<span class="px-2 py-1 border border-[#2E3244] text-[11px] tracking-widest text-[#9B99A1] rounded-[4px] uppercase">Apple Pay Launch</span>
-<span class="px-2 py-1 border border-[#2E3244] text-[11px] tracking-widest text-[#9B99A1] rounded-[4px] uppercase">Insurance MVP</span>
-</div>
-<!-- Showcase Cards Grid -->
-<div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-<!-- Card 1 -->
-<a class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-[8px] p-4 hover:border-[#00C48C]/50 transition-colors group" href="https://www.tiktok.com/discover/venmo-promo"  rel="noopener noreferrer" target="_blank">
-<h4 class="text-[13px] font-medium text-[#F0EEE8] mb-1 group-hover:text-[#00C48C] transition-colors">Venmo x TikTok Shop</h4>
-<p class="text-[11px] text-[#9B99A1] mb-3">Creator payment promotion campaign at scale</p>
-<div class="aspect-video w-full bg-[#0F1117] rounded mb-3 overflow-hidden border border-[#2E3244]">
-<img loading="lazy" alt="Venmo Promo" class="w-full h-full object-cover" src="venmo.jpg"/>
-</div>
-<span class="text-[10px] text-[#00C48C] uppercase tracking-widest font-medium">Link →</span>
-</a>
-<!-- Card 2 -->
-<a class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-[8px] p-4 hover:border-[#00C48C]/50 transition-colors group" href="https://wwd.com/business-news/business-features/tiktok-shop-venmo-partnership-black-friday-cyber-monday-1236704924/"  rel="noopener noreferrer" target="_blank">
-<h4 class="text-[13px] font-medium text-[#F0EEE8] mb-1 group-hover:text-[#00C48C] transition-colors">Black Friday Campaign</h4>
-<p class="text-[11px] text-[#9B99A1] mb-2">WWD coverage of the Venmo x TikTok Shop partnership</p>
-<span class="text-[10px] text-[#00C48C] uppercase tracking-widest font-medium">Link →</span>
-</a>
-<!-- Card 3 -->
-<div class="md:col-span-2 bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-[8px] p-4">
-<h4 class="text-[13px] font-medium text-[#F0EEE8] mb-1">E-commerce Insurance MVP</h4>
-<p class="text-[11px] text-[#9B99A1] mb-4">From blank page to live product — Cover Genius / XCover</p>
-<div class="flex gap-4 items-start mb-4">
-<div class="w-1/2 aspect-[9/16] bg-[#0F1117] overflow-hidden rounded border border-[#2E3244]">
-<img loading="lazy" alt="Insurance Product Page" class="w-full h-full object-cover" src="insurance1.jpg"/>
-</div>
-<div class="w-1/2 aspect-[9/16] bg-[#0F1117] overflow-hidden rounded border border-[#2E3244]">
-<img loading="lazy" alt="Insurance Protection Plan Modal" class="w-full h-full object-cover" src="insurance2.jpg"/>
-</div>
-</div>
-<p class="text-[11px] italic text-[#6B6975]">E-commerce insurance — from blank page to live product on TikTok Shop</p>
-</div>
-</div>
-</div>
-<!-- Role 3 -->
-<div class="relative pl-[40px] mb-[56px]">
-<!-- Dot -->
-<div class="absolute left-0 top-[6px] w-[12px] h-[12px] rounded-full border border-[#00C48C] bg-[#2E3244] z-10"></div>
-<div class="flex flex-col md:flex-row justify-between items-start mb-2">
-<div>
-<h3 class="text-[17px] font-medium text-[#F0EEE8]">TikTok Inc.</h3>
-<p class="text-[13px] text-[#9B99A1]">Platform Growth &amp; Ecosystem Partnerships Lead</p>
-<p class="text-[11px] text-[#6B6975] uppercase tracking-wider">San Jose, CA</p>
-</div>
-<span class="text-[11px] text-[#00C48C] font-medium tracking-widest md:text-right mt-1 md:mt-0 uppercase">FEB 2020 – FEB 2023</span>
-</div>
-<div class="career-summary-border pl-6 py-1 mb-4">
-<p class="text-[14px] md:text-[15px] text-[#F0EEE8] leading-relaxed">
-                                Identified iOS capabilities that no social platform had claimed yet — and built TikTok's partnership with Apple around them before any competitor was looking.
-                            </p>
-</div>
-<ul class="space-y-3 ml-5">
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Managed the strategic relationship with Apple at the executive and product level — negotiated NDA-level access to unreleased iOS features and positioned TikTok as a named WWDC launch partner. Built the trust and communication cadence that no other social platform had established with Apple at this depth.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Identified SharePlay as a watch-time opportunity before any social app had claimed it — TikTok was a solitary experience, FaceTime was an untapped social layer. Launched co-watching globally, turning shared viewing into an acquisition channel.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Negotiated TikTok x Apple Music — affiliate revenue on every Apple Music signup driven from TikTok, plus full catalog integration so songs discovered on TikTok auto-populated into users' playlists. Brought Apple Music's entire catalog into TikTok's creator toolkit for the first time.
-                            </li>
-</ul><div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-<a class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-[8px] p-4 hover:border-[#00C48C]/50 transition-colors group" href="https://www.apple.com/cf/newsroom/2021/11/shareplay-powers-new-ways-to-stay-connected-and-share-experiences-in-facetime/"  rel="noopener noreferrer" target="_blank">
-<h4 class="text-[13px] font-medium text-[#F0EEE8] mb-1 group-hover:text-[#00C48C] transition-colors">SharePlay — WWDC Launch</h4>
-<p class="text-[11px] text-[#9B99A1] mb-3">TikTok co-watching over FaceTime — named Apple WWDC launch partner</p><div class="aspect-video w-full bg-[#0F1117] rounded mb-3 overflow-hidden border border-[#2E3244]"><img loading="lazy" alt="SharePlay WWDC Launch" class="w-full h-full object-cover" src="shareplay.jpg"/></div>
-<span class="text-[10px] text-[#00C48C] uppercase tracking-widest font-medium">Link →</span>
-</a>
-<a class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-[8px] p-4 hover:border-[#00C48C]/50 transition-colors group" href="https://music.apple.com/us/playlist/tiktok-songs/pl.d25f5d1456ec4b20b7d1c24ab1b15c48"  rel="noopener noreferrer" target="_blank">
-<h4 class="text-[13px] font-medium text-[#F0EEE8] mb-1 group-hover:text-[#00C48C] transition-colors">TikTok x Apple Music</h4>
-<p class="text-[11px] text-[#9B99A1] mb-3">Affiliate revenue + full catalog integration + auto-playlist for songs discovered on TikTok</p>
-<div class="aspect-video w-full bg-[#0F1117] rounded mb-3 overflow-hidden border border-[#2E3244]"><img loading="lazy" alt="Apple Music Integration" class="w-full h-full object-cover" src="applemusic.jpg"/></div>
-<span class="text-[10px] text-[#00C48C] uppercase tracking-widest font-medium">Link →</span>
-</a>
-<a class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-[8px] p-4 hover:border-[#00C48C]/50 transition-colors group" href="https://apps.apple.com/us/story/id1882534694"  rel="noopener noreferrer" target="_blank">
-<h4 class="text-[13px] font-medium text-[#F0EEE8] mb-1 group-hover:text-[#00C48C] transition-colors">App Store — TikTok App of the Day</h4>
-<p class="text-[11px] text-[#9B99A1] mb-2">Organic App Store featuring driving new user acquisition at zero cost</p>
-<span class="text-[10px] text-[#00C48C] uppercase tracking-widest font-medium">Link →</span>
-</a>
-</div>
-</div>
-<!-- Role 4 -->
-<div class="relative pl-[40px]">
-<!-- Dot -->
-<div class="absolute left-0 top-[6px] w-[12px] h-[12px] rounded-full border border-[#00C48C] bg-[#2E3244] z-10"></div>
-<div class="flex flex-col md:flex-row justify-between items-start mb-2">
-<div>
-<h3 class="text-[17px] font-medium text-[#F0EEE8]">Apple Inc.</h3>
-<p class="text-[13px] text-[#9B99A1]">Global Developer Relations — App Store Strategy</p>
-<p class="text-[11px] text-[#6B6975] uppercase tracking-wider">Cupertino, CA</p>
-</div>
-<span class="text-[11px] text-[#00C48C] font-medium tracking-widest md:text-right mt-1 md:mt-0 uppercase">JUN 2017 – JAN 2020</span>
-</div>
-<div class="career-summary-border pl-6 py-1 mb-4">
-<p class="text-[14px] md:text-[15px] text-[#F0EEE8] leading-relaxed">
-                                Spent three years inside Apple's platform team — in the room where decisions were made about which apps got early access, which policies got enforced, and which iOS capabilities got prioritized for third-party developers.
-                            </p>
-</div>
-<ul class="space-y-3 ml-5">
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Shaped App Store Guidelines for the social media category — translated user safety instincts around Gen Z spending into enforceable policy, including parental gate mandates for in-app purchases.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Managed strategic relationships with top apps such as Facebook, Snapchat, and TikTok — trusted on both sides: what Apple could build for them, and where the platform would hold the line.
-                            </li>
-<li class="relative bullet-dash text-[15px] text-[#9B99A1] leading-relaxed">
-                                Led annual developer education at WWDC — created adoption toolkits, partner comms, and product use case guides that onboarded the world's top social apps onto new iOS releases each year.
-                            </li>
-</ul>
-</div>
-</div>
-</div>
-</section>
-<!-- AI in Practice Section -->
-<section class="bg-[#0F1117] py-[96px] px-4 md:px-[80px]" id="ai-workflow">
-<div class="max-w-7xl mx-auto">
-<div class="mb-[48px]">
-<span class="font-label text-[11px] uppercase tracking-[0.12em] text-[#9B99A1] block mb-4">AI in Practice</span>
-<h2 class="font-headline text-[32px] text-[#F0EEE8] mb-1">I don't wait for the tools to mature.</h2>
-<p class="text-[16px] italic text-[#9B99A1]" style="font-size: 18px;">I build with what exists now.</p>
-</div>
-<!-- Philosophy Callout -->
-<div class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] border-l-4 border-l-[#00C48C] rounded-r-xl p-[28px] md:p-[36px] mb-10">
-<h3 class="text-[16px] font-medium text-[#F0EEE8] mb-[14px]">The thing I've learned that most people haven't said out loud yet</h3>
-<p class="text-[16px] italic text-[#F0EEE8] leading-relaxed">
-                        "I use AI to move fast. I use my domain expertise to get it right. The model gets me 70% of the way. The last 30% is still mine."
-                    </p>
-</div>
-<!-- Insurance story -->
-<div class="mb-10 text-[15px] text-[#9B99A1] leading-relaxed max-w-[800px] space-y-4">
-<p>I learned this the hard way in 2023. I used ChatGPT and DeepSeek to enter e-commerce insurance from zero — I had no background in it at all. The AI compressed weeks of research into days. Competitive landscape, regulatory structure, business model mechanics — I had working knowledge fast enough to actually be useful. But the model was also confidently wrong in ways that only an expert would catch. I caught them because I kept domain experts in the loop at every stage.</p>
-<p>We shipped. The product generated millions in GWP within months.</p>
-<p>That experience set the rule I've worked by since: AI changes the speed. It doesn't change who's responsible for getting it right.</p>
-</div>
-<!-- AI Grid -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<!-- Card 1: Production agent (Full Width) -->
-<div class="md:col-span-2 bg-[#1A1D26] border border-[#00C48C]/30 rounded-lg p-6 hover:bg-[#21253A] transition-colors">
-<span class="px-2 py-1 bg-[#0D3D2E] text-[#00C48C] text-[10px] font-bold rounded uppercase tracking-widest mb-4 inline-block">Personal · 2026</span>
-<h4 class="text-[18px] font-medium text-[#F0EEE8] mb-2">Production job search agent — Claude API + GitHub Actions + Gmail SMTP</h4>
-<p class="text-[12px] text-[#6B6975] font-mono mb-4">Python · Anthropic SDK · GitHub Actions · Gmail SMTP · JSON dedup state</p>
-<p class="text-[14px] text-[#9B99A1] leading-relaxed mb-3">
-                            Built and deployed a fully automated daily job agent from scratch. It calls the Claude API with a structured search prompt, deduplicates results against a persisted JSON store so no role appears twice, applies role-matching logic, and delivers a formatted HTML digest via Gmail SMTP on a GitHub Actions cron schedule. Zero manual trigger. Runs in production every weekday morning. Cost: ~$0.007/run.
-                        </p>
-<p class="text-[13px] italic text-[#6B6975]">
-                            This is what building with AI actually looks like — not a demo, not a prototype. Prompt engineering, state management, error handling, production deployment. The same process I'd apply to any 0→1 product.
-                        </p>
-</div>
-<!-- Card 2: LLM ops -->
-<div class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-lg p-6 hover:bg-[#21253A] transition-colors flex flex-col">
-<span class="px-2 py-1 bg-[#0D3D2E] text-[#00C48C] text-[10px] font-bold rounded uppercase tracking-widest mb-4 self-start">Work · 2026</span>
-<h4 class="text-[18px] font-medium text-[#F0EEE8] mb-4">LLM agent deployment framework — TikTok customer ops</h4>
-<p class="text-[14px] text-[#9B99A1] leading-relaxed mb-4">
-                            Scoping which customer service workflows can safely use LLM agents — and which can't. Mapped the full ops surface, classified by automation risk, and defined escalation criteria for financial transactions where AI judgment isn't sufficient.
-                        </p>
-<p class="text-[13px] italic text-[#6B6975] mt-auto">
-                            The interesting product decision isn't what to automate. It's what not to.
-                        </p>
-</div>
-<!-- Card 3: Domain intelligence -->
-<div class="bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-lg p-6 hover:bg-[#21253A] transition-colors flex flex-col">
-<span class="px-2 py-1 bg-[#0D3D2E] text-[#00C48C] text-[10px] font-bold rounded uppercase tracking-widest mb-4 self-start">Work · 2025–present</span>
-<h4 class="text-[18px] font-medium text-[#F0EEE8] mb-4">Domain intelligence system — Coze + internal dashboards</h4>
-<p class="text-[14px] text-[#9B99A1] leading-relaxed mb-4">
-                            Data monitoring agent connected to internal dashboards — pulls key metrics daily, surfaces anomalies, delivers a morning brief. Custom news agent filters platform, commerce, and AI developments down to what's relevant. PRD co-pilot using Claude and Gemini with domain-specific skills files so the model follows my structure and standards, not generic output.
-                        </p>
-<p class="text-[13px] italic text-[#6B6975] mt-auto">
-                            The principle across all of it: define the context once, configure it properly, let it run.
-                        </p>
-</div>
-<!-- Card 4: Learning (Full Width) -->
-<div class="md:col-span-2 bg-[#1A1D26] border-[0.5px] border-[#2E3244] rounded-lg p-6 hover:bg-[#21253A] transition-colors">
-<span class="px-2 py-1 bg-[#1A1D35] text-[#8B8AE0] text-[10px] font-bold rounded uppercase tracking-widest mb-4 inline-block">Learning · 2025–2026</span>
-<h4 class="text-[18px] font-medium text-[#F0EEE8] mb-4">Learning to think like a builder</h4>
-<div class="space-y-3 text-[14px] text-[#9B99A1] leading-relaxed">
-<p>I'm working through Andrej Karpathy's technical content and Andrew Ng's courses to build a foundation — not credentials, but a way of thinking. Understanding where models fail. Why they hallucinate. What that means for the product decisions you have to make on top of them.</p>
-<p>I also spend time on GitHub reading how practitioners structure their skills files and prompt context — not to copy, but to take inspiration and build my own tailored versions for how I actually work.</p>
-<p>The part I find most interesting is thinking through user scenarios from first principles: where does AI genuinely change what's possible for someone? Where does it create new friction? Those questions are harder than the tooling, and they're the ones I'm trying to get better at.</p>
-<p class="italic text-[#6B6975]">I'm not there yet. But that's the work.</p>
-</div>
-</div>
-</div>
+<body>
 
-</div>
+<!-- ── Navigation ───────────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="container nav__inner">
+    <span class="nav__logo">Elaine (Chen) Yan</span>
+    <ul class="nav__links">
+      <li><a href="#career">Career Journey</a></li>
+      <li><a href="#ai-workflow">AI in Practice</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+<!-- ── Hero ─────────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero__photo">
+    <img src="photo.jpg" alt="Professional portrait of Elaine Chen Yan" loading="eager"/>
+  </div>
+  <div class="hero__content">
+    <div class="hero__inner">
+      <span class="hero__eyebrow">Platform Strategy · Commerce Growth · AI in Production</span>
+      <h1 class="hero__name font-head">Elaine (Chen) Yan</h1>
+      <p class="hero__title">Senior Product Manager — Growth &amp; Platform Partnerships</p>
+      <p class="hero__bio">
+        The through-line of my career is simple: find the untapped intersection between platforms, then make something real there. At Apple and TikTok, I built the products and partnerships that no other social app had thought to build — including TikTok's deepest iOS integration and social commerce's first payment-led promotion program. Moving into e-commerce, I turned payment friction into a growth engine — a 0→1 product and GTM that no platform had done before. Today, I'm doing the same thing with AI: shipping multi-agent systems in production, building with the Claude API, and finding the gaps that matter before anyone else looks.
+      </p>
+      <div class="hero__callout">
+        This website was designed and built with AI — a practice, not just a talking point.
+      </div>
+      <a class="btn-download" href="https://elaineyan19-arch.github.io/resume.pdf" download="Elaine_Chen_Yan_Resume.pdf">
+        <span class="material-symbols-outlined">download</span>
+        Download Resume (PDF)
+      </a>
+      <div class="focus-card">
+        <p class="focus-card__title">What I'm building in 2026</p>
+        <ul class="focus-list">
+          <li>
+            <div class="focus-item__label"><span class="dot"></span>Multi-agent systems in production</div>
+            <p class="focus-item__desc">Shipped a 5-agent payment campaign pipeline at TikTok — cohort segmentation to experiment design, fully automated. Reducing campaign cycles from weeks to days.</p>
+          </li>
+          <li>
+            <div class="focus-item__label"><span class="dot"></span>Builder judgment, not just fluency</div>
+            <p class="focus-item__desc">Working through Karpathy and Ng — not for credentials, but to understand where models fail and what that means for product decisions built on top of them.</p>
+          </li>
+          <li>
+            <div class="focus-item__label"><span class="dot"></span>Production AI tooling from scratch</div>
+            <p class="focus-item__desc">Not just using AI tools — shipping them. Built a fully automated daily job agent: Claude API, GitHub Actions, Gmail SMTP. Runs in production every weekday.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
-<!-- Education Section -->
-<section class="bg-[#0F1117] py-[96px] px-4 md:px-[80px]" id="education">
-<div class="max-w-[900px] mx-auto">
-<span class="font-label text-[11px] uppercase tracking-[0.12em] text-[#9B99A1] block mb-10">Education</span>
-<div class="flex flex-col md:flex-row justify-between items-start">
-<div class="w-full md:w-[70%]">
-<h3 class="text-[18px] font-medium text-[#F0EEE8]">University of California, Berkeley</h3>
-<p class="text-[15px] text-[#9B99A1] mt-1">Bachelor of Science in Economics &amp; Policy</p>
-<div class="mt-4 flex flex-col gap-1">
-<div class="flex items-center gap-2">
-<span class="w-[6px] h-[6px] rounded-full bg-[#00C48C]"></span>
-<span class="text-[14px] text-[#F0EEE8] font-medium">Dell Scholar — Michael &amp; Susan Dell Foundation</span>
-</div>
-<p class="text-[12px] text-[#9B99A1] ml-[14px]">Merit-based national fellowship · 1 of 500 selected nationwide</p>
-</div>
-</div>
-<div class="w-full md:w-[30%] text-left md:text-right mt-2 md:mt-0">
-<span class="text-[14px] text-[#6B6975]">May 2017</span>
-</div>
-</div>
-</div>
+
+<!-- ── Traits strip ───────────────────────────────────────────────── -->
+<section class="traits">
+  <div class="container">
+    <span class="label">Three ways I've worked — across every role</span>
+    <div class="traits__grid">
+      <div class="trait-card trait-card--purple">
+        <span class="trait-badge trait-badge--purple">White Space Eye</span>
+        <h4 class="trait-card__title">I see what's not there yet</h4>
+        <p class="trait-card__body">I find the gap between what a platform can do and what anyone's using it for — then I build there before anyone else looks.</p>
+      </div>
+      <div class="trait-card trait-card--green">
+        <span class="trait-badge trait-badge--green">0 → 1 Pioneer</span>
+        <h4 class="trait-card__title">I build the first version</h4>
+        <p class="trait-card__body">SharePlay. Social commerce's first payment promotion program. E-commerce insurance on TikTok Shop. I'm drawn to the blank page — and I know how to fill it.</p>
+      </div>
+      <div class="trait-card trait-card--amber">
+        <span class="trait-badge trait-badge--amber">1 → 100 Scaler</span>
+        <h4 class="trait-card__title">I don't stop at launch</h4>
+        <p class="trait-card__body">4% GMV uplift. 59M+ impressions. Tripled Live Room AOV. I iterate until the numbers move.</p>
+      </div>
+    </div>
+  </div>
 </section>
+
+<!-- ── Career Journey ─────────────────────────────────────────────── -->
+<section class="section" id="career">
+  <div class="container">
+    <span class="label section__eyebrow">Career Journey</span>
+    <h2 class="section__heading font-head">
+      Eight years at the intersection of platform strategy and product growth. One consistent instinct: find the gap, then build there.
+    </h2>
+    <div class="timeline">
+
+      <!-- Role 1 — TikTok USDS -->
+      <article class="timeline__role">
+        <div class="timeline__dot timeline__dot--active"></div>
+        <div class="timeline__header">
+          <div>
+            <h3 class="timeline__company">TikTok USDS Joint Venture LLC</h3>
+            <p class="timeline__role-title">Senior Product Manager, AI-Augmented Growth &amp; Operations</p>
+            <p class="timeline__location">Bellevue, WA</p>
+          </div>
+          <span class="timeline__date">Jan 2026 – Present</span>
+        </div>
+        <blockquote class="timeline__summary">
+          Identified that the coin recharge business needed a completely different playbook from Shop — different user psychology, different incentive structure, different approach. Rebuilt the promotion strategy from the ground up, and applied that same instinct to AI: shipped a 5-agent LLM pipeline that replaced manual campaign design entirely.
+        </blockquote>
+        <ul class="timeline__bullets">
+          <li>Identified that coin recharge users respond to reward psychology, not discount mechanics — a fundamental difference from Shop. Redesigned the promotion strategy from the ground up around behavioral triggers and bonus incentives.</li>
+          <li>Built predictive segmentation to separate users who recharge organically from those who need a promotion — focused co-marketing spend where it changes behaviour.</li>
+          <li>Built a 5-agent LLM pipeline replacing manual payment campaign design — automated end-to-end from cohort segmentation to experiment design. Designed to scale across business lines, reducing campaign design cycles from weeks to days.</li>
+        </ul>
+      </article>
+
+      <!-- Role 2 — TikTok Shop -->
+      <article class="timeline__role">
+        <div class="timeline__dot timeline__dot--past"></div>
+        <div class="timeline__header">
+          <div>
+            <h3 class="timeline__company">TikTok Shop</h3>
+            <p class="timeline__role-title">Product Lead, Commerce Growth &amp; Fintech Innovation</p>
+            <p class="timeline__location">Bellevue, WA</p>
+          </div>
+          <span class="timeline__date">Feb 2023 – Dec 2025</span>
+        </div>
+        <blockquote class="timeline__summary">
+          Identified payment friction as TikTok Shop's real growth ceiling — not a tech problem, a strategy gap. Built a new creator monetization model around payment partners, built the first payment-led promotion program in social commerce, and validated an entirely new product category from zero.
+        </blockquote>
+        <ul class="timeline__bullets">
+          <li>Built the first payment-led promotion program in social commerce — secured multi-million dollar co-marketing with Apple Pay, Venmo, and PayPal. Drove 4% GMV uplift and tripled Live Room AOV across high-traffic mega-sale events.</li>
+          <li>Pioneered the first payment-brand native ad format in live social commerce — financial partners compensating creators directly for promoting payment offers on-stream. New revenue stream for Gen Z creators. New performance channel for financial brands.</li>
+          <li>Validated e-commerce insurance as a net-new product category — led business model analysis, regulatory review, partner negotiations, and MVP build with Cover Genius end-to-end. Generated millions in Gross Written Premium within months of launch.</li>
+        </ul>
+        <div class="pills">
+          <span class="pill">Venmo Partnership</span>
+          <span class="pill">Apple Pay Launch</span>
+          <span class="pill">Insurance MVP</span>
+        </div>
+        <div class="cards-grid" style="margin-top:24px;">
+          <a class="card" href="https://www.tiktok.com/discover/venmo-promo" target="_blank" rel="noopener noreferrer">
+            <h4 class="card__title">Venmo x TikTok Shop</h4>
+            <p class="card__desc">Creator payment promotion campaign at scale</p>
+            <div class="card__thumb"><img loading="lazy" src="venmo.jpg" alt="Venmo Promo"/></div>
+            <span class="card__link">Link →</span>
+          </a>
+          <a class="card" href="https://wwd.com/business-news/business-features/tiktok-shop-venmo-partnership-black-friday-cyber-monday-1236704924/" target="_blank" rel="noopener noreferrer">
+            <h4 class="card__title">Black Friday Campaign</h4>
+            <p class="card__desc">WWD coverage of the Venmo x TikTok Shop partnership</p>
+            <span class="card__link">Link →</span>
+          </a>
+          <div class="card card--span2">
+            <h4 class="card__title">E-commerce Insurance MVP</h4>
+            <p class="card__desc">From blank page to live product — Cover Genius / XCover</p>
+            <div class="card__duo">
+              <div class="card__duo-item"><img loading="lazy" src="insurance1.jpg" alt="Insurance Product Page"/></div>
+              <div class="card__duo-item"><img loading="lazy" src="insurance2.jpg" alt="Insurance Protection Plan Modal"/></div>
+            </div>
+            <p class="card__caption">E-commerce insurance — from blank page to live product on TikTok Shop</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Role 3 — TikTok Inc. -->
+      <article class="timeline__role">
+        <div class="timeline__dot timeline__dot--past"></div>
+        <div class="timeline__header">
+          <div>
+            <h3 class="timeline__company">TikTok Inc.</h3>
+            <p class="timeline__role-title">Platform Growth &amp; Ecosystem Partnerships Lead</p>
+            <p class="timeline__location">San Jose, CA</p>
+          </div>
+          <span class="timeline__date">Feb 2020 – Feb 2023</span>
+        </div>
+        <blockquote class="timeline__summary">
+          Identified iOS capabilities that no social platform had claimed yet — and built TikTok's partnership with Apple around them before any competitor was looking.
+        </blockquote>
+        <ul class="timeline__bullets">
+          <li>Managed the strategic relationship with Apple at the executive and product level — negotiated NDA-level access to unreleased iOS features and positioned TikTok as a named WWDC launch partner. Built the trust and communication cadence that no other social platform had established with Apple at this depth.</li>
+          <li>Identified SharePlay as a watch-time opportunity before any social app had claimed it — TikTok was a solitary experience, FaceTime was an untapped social layer. Launched co-watching globally, turning shared viewing into an acquisition channel.</li>
+          <li>Negotiated TikTok x Apple Music — affiliate revenue on every Apple Music signup driven from TikTok, plus full catalog integration so songs discovered on TikTok auto-populated into users' playlists. Brought Apple Music's entire catalog into TikTok's creator toolkit for the first time.</li>
+        </ul>
+        <div class="cards-grid" style="margin-top:24px;">
+          <a class="card" href="https://www.apple.com/cf/newsroom/2021/11/shareplay-powers-new-ways-to-stay-connected-and-share-experiences-in-facetime/" target="_blank" rel="noopener noreferrer">
+            <h4 class="card__title">SharePlay — WWDC Launch</h4>
+            <p class="card__desc">TikTok co-watching over FaceTime — named Apple WWDC launch partner</p>
+            <div class="card__thumb"><img loading="lazy" src="shareplay.jpg" alt="SharePlay WWDC Launch"/></div>
+            <span class="card__link">Link →</span>
+          </a>
+          <a class="card" href="https://music.apple.com/us/playlist/tiktok-songs/pl.d25f5d1456ec4b20b7d1c24ab1b15c48" target="_blank" rel="noopener noreferrer">
+            <h4 class="card__title">TikTok x Apple Music</h4>
+            <p class="card__desc">Affiliate revenue + full catalog integration + auto-playlist for songs discovered on TikTok</p>
+            <div class="card__thumb"><img loading="lazy" src="applemusic.jpg" alt="Apple Music Integration"/></div>
+            <span class="card__link">Link →</span>
+          </a>
+          <a class="card" href="https://apps.apple.com/us/story/id1882534694" target="_blank" rel="noopener noreferrer">
+            <h4 class="card__title">App Store — TikTok App of the Day</h4>
+            <p class="card__desc">Organic App Store featuring driving new user acquisition at zero cost</p>
+            <span class="card__link">Link →</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- Role 4 — Apple -->
+      <article class="timeline__role" style="margin-bottom:0;">
+        <div class="timeline__dot timeline__dot--past"></div>
+        <div class="timeline__header">
+          <div>
+            <h3 class="timeline__company">Apple Inc.</h3>
+            <p class="timeline__role-title">Global Developer Relations — App Store Strategy</p>
+            <p class="timeline__location">Cupertino, CA</p>
+          </div>
+          <span class="timeline__date">Jun 2017 – Jan 2020</span>
+        </div>
+        <blockquote class="timeline__summary">
+          Spent three years inside Apple's platform team — in the room where decisions were made about which apps got early access, which policies got enforced, and which iOS capabilities got prioritized for third-party developers.
+        </blockquote>
+        <ul class="timeline__bullets">
+          <li>Shaped App Store Guidelines for the social media category — translated user safety instincts around Gen Z spending into enforceable policy, including parental gate mandates for in-app purchases.</li>
+          <li>Managed strategic relationships with top apps such as Facebook, Snapchat, and TikTok — trusted on both sides: what Apple could build for them, and where the platform would hold the line.</li>
+          <li>Led annual developer education at WWDC — created adoption toolkits, partner comms, and product use case guides that onboarded the world's top social apps onto new iOS releases each year.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── AI in Practice ─────────────────────────────────────────────── -->
+<section class="section ai-section" id="ai-workflow">
+  <div class="container">
+    <span class="label section__eyebrow">AI in Practice</span>
+    <h2 class="ai-section__heading font-head">I don't wait for the tools to mature.</h2>
+    <p class="ai-section__sub" style="margin-bottom:40px;">I build with what exists now.</p>
+
+    <div class="philosophy-callout">
+      <h3 class="philosophy-callout__title">The thing I've learned that most people haven't said out loud yet</h3>
+      <p class="philosophy-callout__quote">"I use AI to move fast. I use my domain expertise to get it right. The model gets me 70% of the way. The last 30% is still mine."</p>
+    </div>
+
+    <div class="story">
+      <p>I learned this the hard way in 2023. I used ChatGPT and DeepSeek to enter e-commerce insurance from zero — I had no background in it at all. The AI compressed weeks of research into days. Competitive landscape, regulatory structure, business model mechanics — I had working knowledge fast enough to actually be useful. But the model was also confidently wrong in ways that only an expert would catch. I caught them because I kept domain experts in the loop at every stage.</p>
+      <p>We shipped. The product generated millions in GWP within months.</p>
+      <p>That experience set the rule I've worked by since: AI changes the speed. It doesn't change who's responsible for getting it right.</p>
+    </div>
+
+    <div class="ai-grid">
+      <!-- Card 1: Job agent (full width) -->
+      <div class="ai-card ai-card--featured ai-card--span2">
+        <span class="ai-badge ai-badge--green">Personal · 2026</span>
+        <h4 class="ai-card__title">Production job search agent — Claude API + GitHub Actions + Gmail SMTP</h4>
+        <p class="ai-card__mono">Python · Anthropic SDK · GitHub Actions · Gmail SMTP · JSON dedup state</p>
+        <p class="ai-card__body">Built and deployed a fully automated daily job agent from scratch. It calls the Claude API with a structured search prompt, deduplicates results against a persisted JSON store so no role appears twice, applies role-matching logic, and delivers a formatted HTML digest via Gmail SMTP on a GitHub Actions cron schedule. Zero manual trigger. Runs in production every weekday morning. Cost: ~$0.007/run.</p>
+        <p class="ai-card__note">This is what building with AI actually looks like — not a demo, not a prototype. Prompt engineering, state management, error handling, production deployment. The same process I'd apply to any 0→1 product.</p>
+      </div>
+
+      <!-- Card 2: Multi-agent pipeline -->
+      <div class="ai-card ai-card--default">
+        <span class="ai-badge ai-badge--green">Work · 2026</span>
+        <h4 class="ai-card__title">Promotional multi-agent pipeline</h4>
+        <p class="ai-card__body">Built a 5-agent LLM pipeline replacing manual payment campaign design — automated end-to-end from cohort segmentation to experiment design. Designed to scale across business lines, reducing campaign design cycles from weeks to days.</p>
+        <div class="ai-card__img-wrap">
+          <img loading="lazy" src="pipeline.png" alt="Payment Promotion Pipeline — 5-agent architecture diagram"/>
+        </div>
+      </div>
+
+      <!-- Card 3: Domain intelligence -->
+      <div class="ai-card ai-card--default">
+        <span class="ai-badge ai-badge--green">Work · 2025–present</span>
+        <h4 class="ai-card__title">Domain intelligence system — Coze + internal dashboards</h4>
+        <p class="ai-card__body">Data monitoring agent connected to internal dashboards — surfaces metric anomalies and delivers a daily brief, replacing a manual morning review. Custom news agent filters platform, commerce, and AI signal down to what's decision-relevant. PRD co-pilot using Claude and Gemini with domain-specific skills files — model follows my structure and standards, not generic output.</p>
+        <p class="ai-card__note">The principle: define the context once, configure it properly, let it run.</p>
+      </div>
+
+      <!-- Card 4: Learning (full width) -->
+      <div class="ai-card ai-card--learning ai-card--span2">
+        <span class="ai-badge ai-badge--purple">Learning · 2025–2026</span>
+        <h4 class="ai-card__title">Learning to think like a builder</h4>
+        <div class="learning-body">
+          <p>I'm working through Andrej Karpathy's technical content and Andrew Ng's courses to build a foundation — not credentials, but a way of thinking. Understanding where models fail. Why they hallucinate. What that means for the product decisions you have to make on top of them.</p>
+          <p>I also spend time on GitHub reading how practitioners structure their skills files and prompt context — not to copy, but to take inspiration and build my own tailored versions for how I actually work.</p>
+          <p>The part I find most interesting is thinking through user scenarios from first principles: where does AI genuinely change what's possible for someone? Where does it create new friction? Those questions are harder than the tooling, and they're the ones I'm trying to get better at.</p>
+          <p><em style="color:var(--dim);">I'm not there yet. But that's the work.</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Education ──────────────────────────────────────────────────── -->
+<section class="section" id="education">
+  <div class="container-sm">
+    <span class="label section__eyebrow" style="margin-bottom:40px; display:block;">Education</span>
+    <div class="edu-row">
+      <div>
+        <h3 class="edu-school">University of California, Berkeley</h3>
+        <p class="edu-degree">Bachelor of Science in Economics &amp; Policy</p>
+        <div class="edu-award">
+          <span class="dot"></span>
+          <span class="edu-award__label">Dell Scholar — Michael &amp; Susan Dell Foundation</span>
+        </div>
+        <p class="edu-award__sub">Merit-based national fellowship · 1 of 500 selected nationwide</p>
+      </div>
+      <span class="edu-date">May 2017</span>
+    </div>
+  </div>
+</section>
+
 </main>
-<!-- Footer -->
-<footer class="w-full py-20 bg-[#1A1D26] border-t-[0.5px] border-[#2E3244]" id="contact">
-<div class="px-8 max-w-7xl mx-auto">
-<h2 class="font-headline text-[40px] text-[#F0EEE8] mb-8">Let's connect</h2>
-<div class="mb-5">
-<span class="text-[16px] font-medium text-[#F0EEE8]">Elaine (Chen) Yan</span>
-</div>
-<div class="flex flex-col gap-3">
-<a class="text-[14px] text-[#9B99A1] hover:text-[#00C48C] transition-colors flex items-center gap-3" href="https://www.linkedin.com/in/chen-yan-y/" rel="noopener noreferrer" target="_blank">
-<span class="w-[5px] h-[5px] rounded-full bg-[#00C48C]"></span>LinkedIn
-                </a>
-<a class="text-[14px] text-[#9B99A1] hover:text-[#00C48C] transition-colors flex items-center gap-3" href="mailto:elaineyan19@gmail.com">
-<span class="w-[5px] h-[5px] rounded-full bg-[#00C48C]"></span>elaineyan19@gmail.com
-                </a>
-<div class="text-[14px] text-[#9B99A1] flex items-center gap-3">
-<span class="w-[5px] h-[5px] rounded-full bg-[#00C48C]"></span>917.613.8820
-                </div>
-<div class="text-[14px] text-[#9B99A1] flex items-center gap-3">
-<span class="w-[5px] h-[5px] rounded-full bg-[#00C48C]"></span>Bellevue, WA
-                </div>
-</div>
-<!-- Footer Bottom Strip -->
-<div class="mt-12 pt-5 border-t border-[#2E3244] flex justify-between items-center">
-<div class="text-[12px] text-[#6B6975]">
-                    © 2026 Elaine (Chen) Yan
-                </div>
-<div class="text-[12px] text-[#00C48C] font-medium">Built with AI</div>
-</div>
-</div>
+
+<!-- ── Footer / Contact ───────────────────────────────────────────── -->
+<footer class="footer" id="contact">
+  <div class="container">
+    <h2 class="footer__heading font-head">Let's connect</h2>
+    <p class="footer__name">Elaine (Chen) Yan</p>
+    <ul class="footer__links">
+      <li><a href="https://www.linkedin.com/in/chen-yan-y/" target="_blank" rel="noopener noreferrer"><span class="dot--sm"></span>LinkedIn</a></li>
+      <li><a href="mailto:elaineyan19@gmail.com"><span class="dot--sm"></span>elaineyan19@gmail.com</a></li>
+      <li><span><span class="dot--sm"></span>917.613.8820</span></li>
+      <li><span><span class="dot--sm"></span>Bellevue, WA</span></li>
+    </ul>
+    <div class="footer__bottom">
+      <span class="footer__copy">© 2026 Elaine (Chen) Yan</span>
+      <span class="footer__built">Built with AI</span>
+    </div>
+  </div>
 </footer>
-</body></html>
+
+</body>
+</html>
